@@ -8,4 +8,4 @@ def even_fib(limit):
             yield a
         a, b = b, a + b
 
-print sum(list(even_fib(4000000)))
+print sum(even_fib(4000000))
